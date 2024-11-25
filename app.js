@@ -1,6 +1,6 @@
 $(function () {
   // YOUR CODE HERE
-  $("#toggleButton").click(function () {
+  $("body").on("click", "#toggleButton", function () {
     $("p").toggle();
   });
   $("#colorButton").click(function () {
